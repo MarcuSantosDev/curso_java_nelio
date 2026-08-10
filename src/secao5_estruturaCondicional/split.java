@@ -1,6 +1,4 @@
-package secao5;
-
-import java.util.Scanner;
+package secao5_estruturaCondicional;
 
 public class split {
     public static void main(String[] args){

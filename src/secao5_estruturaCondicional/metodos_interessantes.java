@@ -1,4 +1,4 @@
-package secao5;
+package secao5_estruturaCondicional;
 
 public class metodos_interessantes {
     public static void main(String[] args) {

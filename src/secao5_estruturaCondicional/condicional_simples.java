@@ -1,4 +1,4 @@
-package secao5;
+package secao5_estruturaCondicional;
 
 public class condicional_simples {
     public static void main (String[] args){

@@ -1,4 +1,4 @@
-package secao4;
+package secao4_estruturaSequencial;
 
 import java.util.Locale;
 
