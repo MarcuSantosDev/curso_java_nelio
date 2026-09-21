@@ -23,11 +23,9 @@ public class Program {
         t2.b = sc.nextDouble();
         t2.c = sc.nextDouble();
 
-        double p = (t1.a + t1.b + t1.c) / 2.0;
-        double areaT1 = Math.sqrt(p * (p - t1.a) * (p - t1.b) * (p - t1.c));
+        double areaT1 = t1.area();
 
-        p = (t2.a + t2.b + t2.c) / 2.0;
-        double areaT2 = Math.sqrt(p * (p - t2.a) * (p - t2.b) * (p - t2.c));
+        double areaT2 = t2.area();
 
         System.out.println("Triangle T1 area : " + areaT1);
         System.out.println("Triangle T2 area : " + areaT2);
