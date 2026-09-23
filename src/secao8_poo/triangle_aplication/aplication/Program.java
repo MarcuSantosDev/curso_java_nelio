@@ -1,8 +1,8 @@
-package secao8_poo_triangle.aplication;
+package secao8_poo.triangle_aplication.aplication;
 
 import java.util.Locale;
 import java.util.Scanner;
-import secao8_poo_triangle.entities.Triangle;
+import secao8_poo.triangle_aplication.entities.Triangle;
 
 public class Program {
     public static void main(String[] args){

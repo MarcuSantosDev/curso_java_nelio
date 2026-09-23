@@ -1,4 +1,4 @@
-package secao8_poo_product.aplication;
+package secao8_poo.product_aplication.aplication;
 
 import java.util.Locale;
 import java.util.Scanner;

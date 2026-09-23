@@ -1,4 +1,5 @@
-package secao8_poo_triangle.entities;
+package secao8_poo.triangle_aplication.entities;
+
 
 public class Triangle {
     public double a;
