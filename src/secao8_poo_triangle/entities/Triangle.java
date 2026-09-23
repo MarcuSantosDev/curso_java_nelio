@@ -1,4 +1,4 @@
-package secao8_poo.entities;
+package secao8_poo_triangle.entities;
 
 public class Triangle {
     public double a;
