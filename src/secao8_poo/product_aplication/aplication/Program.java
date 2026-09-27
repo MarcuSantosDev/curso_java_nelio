@@ -2,7 +2,7 @@ package secao8_poo.product_aplication.aplication;
 
 import java.util.Locale;
 import java.util.Scanner;
-import secao8_poo_product.entities.Product;
+import secao8_poo.product_aplication.entities.Product;
 
 public class Program {
     public static void main (String[] args){
@@ -35,7 +35,7 @@ public class Program {
         System.out.println();
         System.out.println("Enter the number of products to be removed in stock" + product);
         int quantity_remove = sc.nextInt();
-        product.remomveProducts(quantity_remove);
+        product.removeProducts(quantity_remove);
         System.out.println("Updated data: " + product);
 
 
