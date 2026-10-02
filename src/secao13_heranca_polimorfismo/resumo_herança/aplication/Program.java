@@ -1,11 +1,9 @@
-package secao13_heranca_polimorfismo.resumo.aplication;
+package secao13_heranca_polimorfismo.resumo_herança.aplication;
 
-import secao13_heranca_polimorfismo.resumo.entities.Account;
-import secao13_heranca_polimorfismo.resumo.entities.BusinessAccount;
-import secao13_heranca_polimorfismo.resumo.entities.SavingsAccount;
-import secao13_heranca_polimorfismo.resumo.entities.SavingsAccountPlus;
-
-import java.util.Scanner;
+import secao13_heranca_polimorfismo.resumo_herança.entities.Account;
+import secao13_heranca_polimorfismo.resumo_herança.entities.BusinessAccount;
+import secao13_heranca_polimorfismo.resumo_herança.entities.SavingsAccount;
+import secao13_heranca_polimorfismo.resumo_herança.entities.SavingsAccountPlus;
 
 public class Program {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package secao13_heranca_polimorfismo.resumo.entities;
+package secao13_heranca_polimorfismo.resumo_herança.entities;
 
 public class BusinessAccount extends Account {
     private Double loanLimit;

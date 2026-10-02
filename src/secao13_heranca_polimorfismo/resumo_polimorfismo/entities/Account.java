@@ -1,4 +1,4 @@
-package secao13_heranca_polimorfismo.resumo.entities;
+package secao13_heranca_polimorfismo.resumo_polimorfismo.entities;
 
 public class Account {
     private Integer number;
@@ -43,3 +43,4 @@ public class Account {
         balance += amount;
     }
 }
+
