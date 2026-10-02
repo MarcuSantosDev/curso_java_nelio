@@ -36,7 +36,7 @@ public class Account {
     }
 
     public void withDraw(double amount){
-        balance -= amount;
+        balance -= amount - 5 ; // Saque + Taxa de 5$
     }
 
     public void deposit(double amount){
