@@ -3,6 +3,7 @@ package secao13_heranca_polimorfismo.resumo.aplication;
 import secao13_heranca_polimorfismo.resumo.entities.Account;
 import secao13_heranca_polimorfismo.resumo.entities.BusinessAccount;
 import secao13_heranca_polimorfismo.resumo.entities.SavingsAccount;
+import secao13_heranca_polimorfismo.resumo.entities.SavingsAccountPlus;
 
 import java.util.Scanner;
 
@@ -10,11 +11,12 @@ public class Program {
     public static void main(String[] args) {
         Account account = new Account(1001,"Alex",1000.0);
         BusinessAccount bacc = new BusinessAccount(1002,"Maria",1000.0,500.0);
+        SavingsAccountPlus sacc_plus = new SavingsAccountPlus(1003,"Marcus",1000.0,0.0);
 
         // Upcasting: converter uma referência da classe filha para a classe pai, geralmente para usar polimorfismo.
         Account acc1 = bacc;
-        Account acc2 =  new BusinessAccount(1003,"Bob",1000.0,200.0);
-        Account acc3 =  new SavingsAccount(1004,"Ana",1000.0,0.01);
+        Account acc2 =  new BusinessAccount(1005,"Bob",1000.0,200.0);
+        Account acc3 =  new SavingsAccount(1005,"Ana",1000.0,0.01);
         // Essas 3 operações acima são possíveis pq toda BusinessAccount e SavingsAccount também é uma Account
 
         /*
@@ -50,6 +52,7 @@ public class Program {
         System.out.println("Conta Ana: $" + acc3.getBalance()); // SavingsAccount
         acc2.withDraw(200);
         System.out.println("Conta Bob: $" + acc2.getBalance());; // BusinessAccount
-
+        sacc_plus.withDraw(200);
+        System.out.println("Conta Bob: $" + sacc_plus.getBalance());
     }
 }
