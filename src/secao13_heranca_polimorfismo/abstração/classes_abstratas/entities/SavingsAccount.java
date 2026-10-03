@@ -1,4 +1,4 @@
-package secao13_heranca_polimorfismo.abstração.classes_abstratatas.entities;
+package secao13_heranca_polimorfismo.abstração.classes_abstratas.entities;
 
 public class SavingsAccount extends Account {
     private double interestRate;

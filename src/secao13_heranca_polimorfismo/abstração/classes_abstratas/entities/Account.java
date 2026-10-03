@@ -1,4 +1,4 @@
-package secao13_heranca_polimorfismo.abstração.classes_abstratatas.entities;
+package secao13_heranca_polimorfismo.abstração.classes_abstratas.entities;
 
 public abstract class Account { // Não permite essa classe ser instanciada
     private Integer number;

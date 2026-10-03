@@ -1,8 +1,8 @@
-package secao13_heranca_polimorfismo.abstração.classes_abstratatas.aplication;
+package secao13_heranca_polimorfismo.abstração.classes_abstratas.aplication;
 
-import secao13_heranca_polimorfismo.abstração.classes_abstratatas.entities.Account;
-import secao13_heranca_polimorfismo.abstração.classes_abstratatas.entities.BusinessAccount;
-import secao13_heranca_polimorfismo.abstração.classes_abstratatas.entities.SavingsAccount;
+import secao13_heranca_polimorfismo.abstração.classes_abstratas.entities.Account;
+import secao13_heranca_polimorfismo.abstração.classes_abstratas.entities.BusinessAccount;
+import secao13_heranca_polimorfismo.abstração.classes_abstratas.entities.SavingsAccount;
 
 import java.util.ArrayList;
 import java.util.List;
