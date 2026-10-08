@@ -1,4 +1,4 @@
-package secao14_tratamento_excecoes.exercicios.model.exceptions;
+package secao14_tratamento_excecoes.exercicios.exercicio1.model.exceptions;
 
 
 public class DomainException extends RuntimeException {

@@ -1,7 +1,7 @@
 package secao14_tratamento_excecoes.exercicios.exercicio1.aplication;
 
 import secao14_tratamento_excecoes.exercicios.exercicio1.entities.Reservation;
-import secao14_tratamento_excecoes.exercicios.model.exceptions.DomainException;
+import secao14_tratamento_excecoes.exercicios.exercicio1.model.exceptions.DomainException;
 
 import java.time.format.DateTimeParseException;
 import java.time.LocalDate;

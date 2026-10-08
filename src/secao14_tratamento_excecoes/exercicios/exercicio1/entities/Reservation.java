@@ -1,6 +1,6 @@
 package secao14_tratamento_excecoes.exercicios.exercicio1.entities;
 
-import secao14_tratamento_excecoes.exercicios.model.exceptions.DomainException;
+import secao14_tratamento_excecoes.exercicios.exercicio1.model.exceptions.DomainException;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
