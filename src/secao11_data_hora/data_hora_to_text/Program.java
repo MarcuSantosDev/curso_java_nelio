@@ -36,7 +36,7 @@ public class Program {
         // d06
         System.out.println();
         System.out.println("d06: " + fmt3.format(d06));
-//      System.out.println("d06: " + d06.format(fmt3)); // Instant não tem o método format()
+        //System.out.println("d06: " + d06.format(fmt3));      Instant não tem o método format()
         System.out.println("d06: " + fmt5.format(d06));
     }
 }
