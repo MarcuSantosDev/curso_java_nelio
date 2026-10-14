@@ -1,4 +1,4 @@
-package secao16_interfaces.problemaEstacionamento.resolucao_sem_intercace.entities;
+package secao16_interfaces.problemaEstacionamento.entities;
 
 import java.time.LocalDateTime;
 

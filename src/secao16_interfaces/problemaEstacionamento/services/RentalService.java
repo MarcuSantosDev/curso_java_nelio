@@ -1,19 +1,19 @@
-package secao16_interfaces.problemaEstacionamento.resolucao_sem_intercace.services;
+package secao16_interfaces.problemaEstacionamento.services;
 
-import secao16_interfaces.problemaEstacionamento.resolucao_sem_intercace.entities.CarRental;
-import secao16_interfaces.problemaEstacionamento.resolucao_sem_intercace.entities.Invoice;
+import secao16_interfaces.problemaEstacionamento.entities.CarRental;
+import secao16_interfaces.problemaEstacionamento.entities.Invoice;
 
 import java.time.Duration;
 
 public class RentalService {
     private double pricePerHour;
     private double pricePerDay;
-    private BrasilTaxService brasilTaxService;
+    private TaxService TaxService;
 
-    public RentalService(double pricePerHour, double pricePerDay, BrasilTaxService brasilTaxService) {
+    public RentalService(double pricePerHour, double pricePerDay, TaxService brasilTaxService) {
         this.pricePerHour = pricePerHour;
         this.pricePerDay = pricePerDay;
-        this.brasilTaxService = brasilTaxService;
+        this.TaxService = brasilTaxService;
     }
 
     public void processInvoid(CarRental carRental){
@@ -27,7 +27,7 @@ public class RentalService {
             basicPayment = pricePerDay * Math.ceil(hours/24);
         }
 
-        double tax  = brasilTaxService.tax(basicPayment);
+        double tax  = TaxService.tax(basicPayment);
         carRental.setInvoice(new Invoice(basicPayment,tax));
     }
 

@@ -1,9 +1,9 @@
-package secao16_interfaces.problemaEstacionamento.resolucao_sem_intercace.aplication;
+package secao16_interfaces.problemaEstacionamento.aplication;
 
-import secao16_interfaces.problemaEstacionamento.resolucao_sem_intercace.entities.CarRental;
-import secao16_interfaces.problemaEstacionamento.resolucao_sem_intercace.entities.Vehicle;
-import secao16_interfaces.problemaEstacionamento.resolucao_sem_intercace.services.BrasilTaxService;
-import secao16_interfaces.problemaEstacionamento.resolucao_sem_intercace.services.RentalService;
+import secao16_interfaces.problemaEstacionamento.entities.CarRental;
+import secao16_interfaces.problemaEstacionamento.entities.Vehicle;
+import secao16_interfaces.problemaEstacionamento.services.BrasilTaxService;
+import secao16_interfaces.problemaEstacionamento.services.RentalService;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

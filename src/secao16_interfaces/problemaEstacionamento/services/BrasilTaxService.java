@@ -1,6 +1,6 @@
-package secao16_interfaces.problemaEstacionamento.resolucao_sem_intercace.services;
+package secao16_interfaces.problemaEstacionamento.services;
 
-public class BrasilTaxService {
+public class BrasilTaxService implements TaxService {
     public double tax(double amount) {
         if (amount<=100){
             return amount*0.2;
