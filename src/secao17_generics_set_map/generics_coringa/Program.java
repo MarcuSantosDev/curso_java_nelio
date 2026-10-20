@@ -1,4 +1,4 @@
-package secao17_generics_set_map.tipos_coringa;
+package secao17_generics_set_map.generics_coringa;
 
 import java.util.ArrayList;
 import java.util.List;
