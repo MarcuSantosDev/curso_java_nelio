@@ -1,4 +1,4 @@
-package secao17_generics_set_map.generics_coringa_delimitados.exercicio2_get_put.aplication;
+package secao17_generics_set_map.generics_coringa_delimitados.exercicio2_get_put;
 
 // Princípio GET/PUT :
 // GET (extends): quando você quer obter ou ler elementos de uma coleção.
