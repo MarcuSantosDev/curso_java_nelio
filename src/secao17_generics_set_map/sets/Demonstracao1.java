@@ -3,8 +3,6 @@ package secao17_generics_set_map.sets;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Demonstracao1 {
-    public static void main(String[] args) {
 /*
                                                 [ SET ]
  - Não admite repetições
@@ -19,6 +17,9 @@ public class Demonstracao1 {
   https://docs.oracle.com/javase/10/docs/api/java/util/Set.html
 
  */
+
+public class Demonstracao1 {
+    public static void main(String[] args) {
 
         Set<String> set = new HashSet<>(); // + rápido , sem ordenação
         // Set<String> set = new TreeSet<>(); => Ordenado em ordem crescente
