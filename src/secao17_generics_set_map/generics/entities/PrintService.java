@@ -1,4 +1,4 @@
-package secao17_generics_set_map.exercicio_generics.entities;
+package secao17_generics_set_map.generics.entities;
 
 import java.util.ArrayList;
 import java.util.List;

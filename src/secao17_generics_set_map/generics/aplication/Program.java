@@ -1,6 +1,6 @@
-package secao17_generics_set_map.exercicio_generics.aplication;
+package secao17_generics_set_map.generics.aplication;
 
-import secao17_generics_set_map.exercicio_generics.entities.PrintService;
+import secao17_generics_set_map.generics.entities.PrintService;
 
 import java.util.Scanner;
 
