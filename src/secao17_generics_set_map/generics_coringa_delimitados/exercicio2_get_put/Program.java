@@ -1,12 +1,14 @@
 package secao17_generics_set_map.generics_coringa_delimitados.exercicio2_get_put;
 
 // Princípio GET/PUT :
-// GET (extends): quando você quer obter ou ler elementos de uma coleção.
-// PUT (super): quando você quer inserir elementos em uma coleção.
+//  - GET → Covariância (? extends) - Usamos quando queremos obter ou ler elementos de uma coleção.
+//  - PUT → Contravariância (? super) - Usamos quando queremos inserir elementos em uma coleção.
+
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+
 public class Program {
     public static void main(String[] args) {
         List<Integer> myInts = Arrays.asList(1, 2, 3, 4);
