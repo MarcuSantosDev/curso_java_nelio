@@ -1,6 +1,6 @@
-package secao17_generics_set_map.sets.exercicio_set.aplication;
+package secao17_generics_set_map.sets.exercicios_set.exercicio1.aplication;
 
-import secao17_generics_set_map.sets.exercicio_set.entities.LogEntry;
+import secao17_generics_set_map.sets.exercicios_set.exercicio1.entities.LogEntry;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

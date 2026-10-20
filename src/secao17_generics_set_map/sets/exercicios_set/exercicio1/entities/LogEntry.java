@@ -1,4 +1,4 @@
-package secao17_generics_set_map.sets.exercicio_set.entities;
+package secao17_generics_set_map.sets.exercicios_set.exercicio1.entities;
 
 import java.util.Date;
 import java.util.Objects;
