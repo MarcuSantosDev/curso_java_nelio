@@ -1,9 +1,8 @@
-package secao18_programacao_funcional_lambda.comparator.aplication;
+package secao18_programacao_funcional_lambda.interfaces_funcionais.comparator.aplication;
 
-import secao18_programacao_funcional_lambda.comparator.entities.Product;
+import secao18_programacao_funcional_lambda.interfaces_funcionais.comparator.entities.Product;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
 
 public class Program {

@@ -1,6 +1,4 @@
-package secao18_programacao_funcional_lambda.comparator.entities;
-
-import java.util.Comparator;
+package secao18_programacao_funcional_lambda.interfaces_funcionais.comparator.entities;
 
 public class Product  {
     private String name;
